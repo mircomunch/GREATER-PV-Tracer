@@ -2,7 +2,7 @@
 <img src="https://github.com/mircomunch/GREATER-PV-Tracer/blob/main/wiki/images/image1.png" width="534" />
 <img src="https://github.com/mircomunch/GREATER-PV-Tracer/blob/main/wiki/images/image0.jpg" width="534" />
 
-This project is part of the GREATER framework and contains the source code for the implementation of the Laboratory Kit Do-It-Yourself. Specifically, this project contains the Smart Photovoltaic Household System documentation with the related firmware, cloud application software and tutorial.
+This project is part of the GREATER framework and contains the source code for the implementation of the Laboratory Kit Do-It-Yourself. Specifically, this project contains the Photovoltaic Curve Tracer documentation with the related firmware, cloud application software and tutorial.
 
 All the documentation an tutorial can be found in the [Wiki page](https://github.com/mircomunch/GREATER-PV-Tracer/wiki).
 ## Pages
