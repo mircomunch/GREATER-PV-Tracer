@@ -1,0 +1,4379 @@
+[
+    {
+        "id": "2b4f63c8771524c8",
+        "type": "tab",
+        "label": "Receive and Raw message",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6116faa92ea33f4f",
+        "type": "tab",
+        "label": "Last test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "172c755e0156a5ad",
+        "type": "tab",
+        "label": "Historical test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c8852e774228ca81",
+        "type": "tab",
+        "label": "Irradiance",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b88f206707c101b8",
+        "type": "tab",
+        "label": "Dummy",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "29c6fb92f28d81d4",
+        "type": "group",
+        "z": "6116faa92ea33f4f",
+        "name": "Download V,I data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2568dd93c2078972",
+            "7eb1b67f4b3a8b25",
+            "b620016be62633f0",
+            "4c40eb1071016a0d"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 512,
+        "h": 122
+    },
+    {
+        "id": "38b94dfa6e4f75a1",
+        "type": "group",
+        "z": "6116faa92ea33f4f",
+        "name": "Clear",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "888739b776d43191",
+            "578197300efb77c2",
+            "d57ee8b278790d56",
+            "0815ad7931269d19",
+            "1aa7e5da5843aa8f"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 392,
+        "h": 122
+    },
+    {
+        "id": "deb76e8f7a8c33b7",
+        "type": "group",
+        "z": "2b4f63c8771524c8",
+        "name": "Clear",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9413df0c6473680d",
+            "5768e90a5e1ab5dd",
+            "15b7f59271880893"
+        ],
+        "x": 54,
+        "y": 559,
+        "w": 382,
+        "h": 82
+    },
+    {
+        "id": "22243dc563c4b1e1",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Save test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "75bd63ebf1cdd924",
+            "c84b01a0bdf4ab7b",
+            "cff49e2bfb6c9ade",
+            "c650fa88c4110543"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 592,
+        "h": 122
+    },
+    {
+        "id": "d382525cc05dfbe0",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Select test and device",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d58a4a6f751b0c23",
+            "b2e653920be87608",
+            "0e9cfd997a23bd9b",
+            "e0373571a509c507",
+            "f4b6b19382b13145",
+            "493e2ab92ec921db",
+            "df0c51b8e2c7215c",
+            "de5e7151de9450f0",
+            "cac589d3ec7ef1b3",
+            "e501846b8cd1f3be",
+            "0be8938433221be4",
+            "bba03ee7edc5032f",
+            "83b678526458782a",
+            "5f6e591367f71e52",
+            "7d4e48f77baa75a3",
+            "0f2c8b0223810511",
+            "7601727d68ba6f41"
+        ],
+        "x": 74,
+        "y": 319,
+        "w": 1132,
+        "h": 282
+    },
+    {
+        "id": "9d511d95cf12bd24",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Clear",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "02b4a82c954a545b",
+            "a19bfccb9e2b50c3",
+            "c9791586c2f7d630",
+            "2db47c4983a6df74"
+        ],
+        "x": 734,
+        "y": 39,
+        "w": 342,
+        "h": 122
+    },
+    {
+        "id": "1e37fa32fd0d4b9b",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Download V,I data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6e9628d1e81d304c",
+            "aeec70681a41d177",
+            "21a37f3321249748",
+            "cd6f609ae97c1af3"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "e2cb081554bd36dd",
+        "type": "group",
+        "z": "2b4f63c8771524c8",
+        "name": "Receive data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2e114831dd6f5fcd",
+            "bd7b2bc87e559a63",
+            "61cae5c16d1639cf",
+            "792b7a879e807398",
+            "76100b889efb2023",
+            "3968570a3655b02b",
+            "23f0a97a8c04ac4b",
+            "6f0c35c217da7aaf",
+            "3c053b028f038316",
+            "d5f42efea868c078",
+            "dac1c28ebdf8ed8c",
+            "9d818b64280e7527",
+            "f7cc08e0c446c89e",
+            "ed4adac74241a7be",
+            "13f5668f58350fb3",
+            "80c9c916abb0afe6",
+            "260f30c0b09d149d",
+            "b796ad9c6ff727c3",
+            "98bcb2ba6ed106de",
+            "8d6ba00c04103ce4",
+            "96468d289ae80d55",
+            "9a96b42b684d9243",
+            "1d5f48fc8a87e882",
+            "d2fb9d02987311c9",
+            "53b6419682c94440",
+            "72444fe15e123a1d",
+            "987869d67fdc4ae9",
+            "9b09bacda799da50",
+            "aae731c4447c8b9e"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1552,
+        "h": 482
+    },
+    {
+        "id": "4d094b61ee42fe1a",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Delete test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d5e36fecdafdcc48",
+            "18b18d182c3c870e",
+            "a5d3821d18b8406f",
+            "7994a90c8e4a80ae",
+            "16506c5eeaec0ba9",
+            "913ebbcc85ee4b89",
+            "6b1545e12b0557d3",
+            "ad24b993bb5f1db8",
+            "246ffc74f7941aa9",
+            "61890bfb8322c44f"
+        ],
+        "x": 74,
+        "y": 999,
+        "w": 1072,
+        "h": 162
+    },
+    {
+        "id": "125a6295e9f07551",
+        "type": "group",
+        "z": "172c755e0156a5ad",
+        "name": "Plot",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "75eae2f2ae40fee3",
+            "df9112517db9bcdc",
+            "a0d166ab03866809",
+            "36bb2c83f188a6d6",
+            "4fbefa7c42f3460f",
+            "beafd93fa911379e",
+            "53e232a6dcd6d3b7",
+            "df7e8a279fee0dc7",
+            "5c839023b8b62f45",
+            "e9ed119e7c45b35c",
+            "5f663061abe34d5c",
+            "86ff3506b4b7a27f",
+            "98c2a97e04dd2edf",
+            "8dc617f358a89c9b",
+            "64e35b581841b36c",
+            "2c8d4971f98da89b",
+            "8509707f2b7ffebf",
+            "4f0e5eb547a9515d",
+            "2b6ac3d7ab3523f6"
+        ],
+        "x": -6,
+        "y": 659,
+        "w": 992,
+        "h": 282
+    },
+    {
+        "id": "2f89a13896eeb48e",
+        "type": "group",
+        "z": "6116faa92ea33f4f",
+        "name": "Plot",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d421f6474544ac71",
+            "fadbe3d8a292d813",
+            "2846e32794a391dd",
+            "9aa438f35f545c09",
+            "12fabf2264cf3944",
+            "bf31327cec9c1613",
+            "58c862a122d93c71",
+            "aa7409bdda0579bd",
+            "3e773fd2f1b38ca2",
+            "7fc131cc58c1cc67",
+            "305c3a258d500a2c",
+            "475ee17af6125c2a",
+            "d9e66b1de6379ea8",
+            "245bf468b4c645ae",
+            "0cfa7335548d8381",
+            "35c48b782643d4d9",
+            "e76a173d0de74575",
+            "8a32a5c0e7c62ae8",
+            "41751cbda0e8bdd7"
+        ],
+        "x": 74,
+        "y": 339,
+        "w": 1072,
+        "h": 302
+    },
+    {
+        "id": "792b7a879e807398",
+        "type": "junction",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "x": 700,
+        "y": 380,
+        "wires": [
+            [
+                "76100b889efb2023",
+                "3968570a3655b02b",
+                "23f0a97a8c04ac4b",
+                "6f0c35c217da7aaf"
+            ]
+        ]
+    },
+    {
+        "id": "4f0e5eb547a9515d",
+        "type": "junction",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "x": 540,
+        "y": 840,
+        "wires": [
+            [
+                "98c2a97e04dd2edf",
+                "8dc617f358a89c9b",
+                "53e232a6dcd6d3b7"
+            ]
+        ]
+    },
+    {
+        "id": "56366962602e0caf",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "36b237f3bdd4508f",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "7ca560244d055e4f",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "8debf267f0354acf",
+        "type": "ui-page",
+        "name": "Last Test",
+        "ui": "36b237f3bdd4508f",
+        "path": "/last-test",
+        "icon": "lightning-bolt",
+        "layout": "grid",
+        "theme": "7ca560244d055e4f",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b42809e3ea7a5f34",
+        "type": "ui-page",
+        "name": "Raw Message",
+        "ui": "36b237f3bdd4508f",
+        "path": "/raw",
+        "icon": "message",
+        "layout": "grid",
+        "theme": "7ca560244d055e4f",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3711fc1786ec99a6",
+        "type": "ui-group",
+        "name": "Last Message",
+        "page": "b42809e3ea7a5f34",
+        "width": 8,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c27626409db2c7a5",
+        "type": "ui-page",
+        "d": true,
+        "name": "Dummy Curve",
+        "ui": "36b237f3bdd4508f",
+        "path": "/dummy",
+        "icon": "alert-octagram",
+        "layout": "grid",
+        "theme": "7ca560244d055e4f",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9bd5c029d4246f50",
+        "type": "ui-group",
+        "name": "Charts",
+        "page": "8debf267f0354acf",
+        "width": "12",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "58f6e0cb0e5dd835",
+        "type": "ui-group",
+        "d": true,
+        "name": "IV curve",
+        "page": "c27626409db2c7a5",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8816d1c0bec2d460",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "257ca7867ce88a71",
+        "type": "global-config",
+        "env": [
+            {
+                "name": "DB_TABLENAME",
+                "value": "iv_test",
+                "type": "str"
+            },
+            {
+                "name": "DB_NAME",
+                "value": "iv_tracer_db",
+                "type": "str"
+            },
+            {
+                "name": "SAMPLE_NUMBER",
+                "value": "6400",
+                "type": "num"
+            },
+            {
+                "name": "DB_IRRADIANCE",
+                "value": "irradiance",
+                "type": "str"
+            }
+        ],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.29.0",
+            "node-red-dashboard": "3.6.6",
+            "node-red-node-mysql": "3.0.0"
+        }
+    },
+    {
+        "id": "55b03696199945ec",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "${DB_NAME}",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "bd58445df3c90d6b",
+        "type": "ui-page",
+        "name": "Historical Data",
+        "ui": "36b237f3bdd4508f",
+        "path": "/historical",
+        "icon": "chart-line",
+        "layout": "grid",
+        "theme": "7ca560244d055e4f",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "88656100bf536f22",
+        "type": "ui-group",
+        "name": "Select Test",
+        "page": "bd58445df3c90d6b",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0b65e02ab8ed543a",
+        "type": "ui-group",
+        "name": "Test Data",
+        "page": "bd58445df3c90d6b",
+        "width": 12,
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ca56e53b94c1da87",
+        "type": "ui-group",
+        "name": "Info",
+        "page": "8debf267f0354acf",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e3a7bad334fe5d16",
+        "type": "ui-spacer",
+        "group": "ca56e53b94c1da87",
+        "name": "spacer",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "e800c95d0dc55b6b",
+        "type": "ui-group",
+        "name": "Log",
+        "page": "b42809e3ea7a5f34",
+        "width": 4,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2a202f4339d1262e",
+        "type": "ui-page",
+        "d": true,
+        "name": "Irradiance profile",
+        "ui": "36b237f3bdd4508f",
+        "path": "/page5",
+        "icon": "power",
+        "layout": "grid",
+        "theme": "7ca560244d055e4f",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "false",
+        "disabled": "false"
+    },
+    {
+        "id": "a8182b13678781c2",
+        "type": "ui-group",
+        "d": true,
+        "name": "24h chart",
+        "page": "2a202f4339d1262e",
+        "width": 12,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "false",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a95e3b9cf2c65daf",
+        "type": "ui-group",
+        "d": true,
+        "name": "1h chart",
+        "page": "2a202f4339d1262e",
+        "width": 12,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "false",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6226919edfab64da",
+        "type": "ui-group",
+        "d": true,
+        "name": "All",
+        "page": "2a202f4339d1262e",
+        "width": 12,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "false",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2e114831dd6f5fcd",
+        "type": "mqtt in",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "",
+        "topic": "greater/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "56366962602e0caf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "bd7b2bc87e559a63",
+                "1d5f48fc8a87e882"
+            ]
+        ]
+    },
+    {
+        "id": "76100b889efb2023",
+        "type": "debug",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6f0c35c217da7aaf",
+        "type": "ui-text",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "group": "3711fc1786ec99a6",
+        "order": 2,
+        "width": 2,
+        "height": 0,
+        "name": "",
+        "label": "Last Seen:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "last_seen",
+        "valueType": "msg",
+        "x": 870,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "9413df0c6473680d",
+        "type": "ui-button",
+        "z": "2b4f63c8771524c8",
+        "g": "deb76e8f7a8c33b7",
+        "group": "3711fc1786ec99a6",
+        "name": "",
+        "label": "Clear msg",
+        "order": 4,
+        "width": 2,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "spray-bottle",
+        "iconPosition": "left",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "black",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "5768e90a5e1ab5dd"
+            ]
+        ]
+    },
+    {
+        "id": "5768e90a5e1ab5dd",
+        "type": "change",
+        "z": "2b4f63c8771524c8",
+        "g": "deb76e8f7a8c33b7",
+        "name": "set blank",
+        "rules": [
+            {
+                "t": "set",
+                "p": "last_seen",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device_id",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 600,
+        "wires": [
+            [
+                "15b7f59271880893"
+            ]
+        ]
+    },
+    {
+        "id": "3c053b028f038316",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "remove START / STOP",
+        "func": "const lines = String(msg.payload ?? \"\")\n    .replace(/\\r/g, \"\")\n    .split(\"\\n\")\n    .map(line => line.trim())\n    .filter(Boolean);\n\nif (\n    lines.length < 3 ||\n    lines[0] !== \"START\" ||\n    lines[lines.length - 1] !== \"STOP\"\n) {\n    node.error(\n        \"Acquisition payload is missing START or STOP\",\n        msg\n    );\n\n    return null;\n}\n\nmsg.first = lines[0];\nmsg.last = lines[lines.length - 1];\n\n// Intentionally remove START and STOP here\nlines.shift();\nlines.pop();\n\nmsg.payload = lines.join(\"\\n\");\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 300,
+        "wires": [
+            [
+                "dac1c28ebdf8ed8c",
+                "72444fe15e123a1d"
+            ]
+        ]
+    },
+    {
+        "id": "f7cc08e0c446c89e",
+        "type": "link out",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "got test",
+        "mode": "link",
+        "links": [
+            "75bd63ebf1cdd924",
+            "d421f6474544ac71"
+        ],
+        "x": 1395,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "dac1c28ebdf8ed8c",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "normalize V,I samples",
+        "func": "let lines = String(msg.payload ?? \"\")\n    .replace(/\\r/g, \"\")\n    .split(\"\\n\")\n    .map(line => line.trim())\n    .filter(line => line.length > 0);\n\nif (lines.length > 0 && lines[0].replace(/\\s/g, \"\").toUpperCase() === \"V,I\") {\n    lines.shift();\n}\n\nif (lines.length === 0) {\n    node.error(\"Acquisition contains no samples\", msg);\n    return null;\n}\n\nconst normalized = [];\nfor (let index = 0; index < lines.length; index++) {\n    const parts = lines[index].split(\",\").map(value => value.trim());\n    if (parts.length !== 2 || parts[0] === \"\" || parts[1] === \"\") {\n        node.error(`Invalid V,I sample at row ${index + 1}: ${lines[index]}`, msg);\n        return null;\n    }\n\n    const voltage = Number(parts[0]);\n    const current = Number(parts[1]);\n    if (!Number.isFinite(voltage) || !Number.isFinite(current)) {\n        node.error(`Non-numeric V,I sample at row ${index + 1}: ${lines[index]}`, msg);\n        return null;\n    }\n\n    normalized.push(`${parts[0]},${parts[1]}`);\n}\n\nmsg.payload = normalized.join(\"\\n\");\nmsg.sample_count = normalized.length;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 360,
+        "wires": [
+            [
+                "f7cc08e0c446c89e",
+                "8d6ba00c04103ce4",
+                "9d818b64280e7527"
+            ]
+        ]
+    },
+    {
+        "id": "bd7b2bc87e559a63",
+        "type": "switch",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "valid topic?",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "/data",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "/irradiance",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "61cae5c16d1639cf"
+            ],
+            [
+                "9a96b42b684d9243"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "15b7f59271880893",
+        "type": "link out",
+        "z": "2b4f63c8771524c8",
+        "g": "deb76e8f7a8c33b7",
+        "name": "clear",
+        "mode": "link",
+        "links": [
+            "d5f42efea868c078",
+            "96468d289ae80d55"
+        ],
+        "x": 395,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d5f42efea868c078",
+        "type": "link in",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "set \"-\"",
+        "links": [
+            "15b7f59271880893"
+        ],
+        "x": 685,
+        "y": 440,
+        "wires": [
+            [
+                "6f0c35c217da7aaf",
+                "3968570a3655b02b",
+                "23f0a97a8c04ac4b"
+            ]
+        ]
+    },
+    {
+        "id": "61cae5c16d1639cf",
+        "type": "change",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "device_id",
+                "pt": "msg",
+                "to": "$split(topic, \"/\")[1]",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "last_seen",
+                "pt": "msg",
+                "to": "iso",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "987869d67fdc4ae9",
+                "aae731c4447c8b9e"
+            ]
+        ]
+    },
+    {
+        "id": "3968570a3655b02b",
+        "type": "ui-template",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "group": "3711fc1786ec99a6",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 5,
+        "width": 8,
+        "height": 0,
+        "head": "",
+        "format": "<div style=\"white-space: pre-line;\">{{msg.payload}}</div>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 860,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23f0a97a8c04ac4b",
+        "type": "ui-text",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "group": "3711fc1786ec99a6",
+        "order": 1,
+        "width": 2,
+        "height": 0,
+        "name": "",
+        "label": "Device:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "device_id",
+        "valueType": "msg",
+        "x": 860,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9d818b64280e7527",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "set global last_test",
+        "func": "const device = String(msg.device_id || msg.device_name || \"unknown\").trim();\nconst acquired = new Date(msg.last_seen || Date.now());\n\nif (Number.isNaN(acquired.getTime())) {\n    node.error(\"Invalid acquisition timestamp\", msg);\n    return null;\n}\n\nconst iso = acquired.toISOString();\nconst filenameTimestamp = iso\n    .replace(\"T\", \"_\")\n    .replace(/[:.]/g, \"-\")\n    .replace(/Z$/, \"\");\nconst safeDevice = device.replace(/[^A-Za-z0-9_.-]/g, \"_\");\nconst csvRows = String(msg.payload ?? \"\").trim();\n\nconst lastTest = {\n    data: csvRows ? `V,I\\n${csvRows}\\n` : \"V,I\\n\",\n    name: `${safeDevice}_${filenameTimestamp}`,\n    device_name: device,\n    acquired_at_utc: iso,\n    sample_count: Number(msg.sample_count) || 0\n};\n\nglobal.set(\"last_test\", lastTest);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed4adac74241a7be",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "check msg",
+        "func": "let chunks = msg.payload;\nlet light = null;\n\nif (!Array.isArray(chunks)) {\n    node.error(\"msg.payload must be an array of strings\", msg);\n    msg.ok = false;\n    return null;\n}\n\nlet parsed;\n\ntry {\n    parsed = chunks.map(chunk => {\n        chunk = Buffer.isBuffer(chunk)\n            ? chunk.toString(\"utf8\")\n            : String(chunk);\n\n        const match = chunk.match(/^\\s*cnt=(\\d+)/i);\n\n        if (!match) {\n            throw new Error(\n                \"Missing cnt= value at the start of a chunk\"\n            );\n        }\n\n        return {\n            cnt: Number(match[1]),\n            text: chunk\n        };\n    });\n} catch (error) {\n    node.error(error.message, msg);\n    msg.ok = false;\n    return null;\n}\n\n// Sort chunks from lowest to highest cnt\nparsed.sort((a, b) => a.cnt - b.cnt);\n\n// Verify continuous cnt sequence\nfor (let i = 0; i < parsed.length; i++) {\n    if (parsed[i].cnt !== i) {\n        node.error(\n            `Missing or unexpected chunk: expected cnt=${i}, ` +\n            `received cnt=${parsed[i].cnt}`,\n            msg\n        );\n\n        msg.ok = false;\n        return null;\n    }\n}\n\n// STOP must be contained in the highest-numbered chunk\nconst lastChunk = parsed[parsed.length - 1];\n\nconst lastChunkHasStop =\n    /(?:^|\\r?\\n)\\s*STOP\\s*(?:\\r?\\n|$)/i.test(lastChunk.text);\n\nif (!lastChunkHasStop) {\n    node.error(\n        `The final chunk cnt=${lastChunk.cnt} does not contain STOP. ` +\n        `The Join node probably completed before receiving the last chunk.`,\n        msg\n    );\n\n    msg.ok = false;\n    return null;\n}\n\nconst outputLines = [];\n\nfor (let index = 0; index < parsed.length; index++) {\n    let lines = parsed[index].text\n        .replace(/\\r/g, \"\")\n        .split(\"\\n\");\n\n    // Remove cnt=... line\n    lines.shift();\n\n    for (const line of lines) {\n        const value = line.trim();\n\n        if (!value) {\n            continue;\n        }\n\n        // Extract and remove LIGHT=...\n        const lightMatch = value.match(/^LIGHT\\s*=\\s*(.*)$/i);\n\n        if (lightMatch) {\n            light = lightMatch[1].trim();\n            continue;\n        }\n\n        // Remove duplicated headers only from later chunks\n        if (\n            index > 0 &&\n            (value === \"START\" || value === \"V,I\")\n        ) {\n            continue;\n        }\n\n        // This includes STOP from the final chunk\n        outputLines.push(value);\n    }\n}\n\nmsg.payload = outputLines.join(\"\\n\");\nmsg.light = light;\nmsg.lightValue = light !== null\n    ? Number.parseFloat(light)\n    : null;\n\nmsg.chunk_count = parsed.length;\nmsg.last_cnt = lastChunk.cnt;\nmsg.ok = true;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 240,
+        "wires": [
+            [
+                "13f5668f58350fb3",
+                "53b6419682c94440",
+                "792b7a879e807398"
+            ]
+        ]
+    },
+    {
+        "id": "13f5668f58350fb3",
+        "type": "switch",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "valid msg?",
+        "property": "ok",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 810,
+        "y": 260,
+        "wires": [
+            [
+                "80c9c916abb0afe6"
+            ],
+            [
+                "260f30c0b09d149d",
+                "3c053b028f038316"
+            ]
+        ]
+    },
+    {
+        "id": "80c9c916abb0afe6",
+        "type": "template",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<h3>Invalid message received from <b>{{device_id}}</b><br>\nat <b>{{last_seen}}</b></h3>",
+        "output": "str",
+        "x": 1140,
+        "y": 220,
+        "wires": [
+            [
+                "b796ad9c6ff727c3"
+            ]
+        ]
+    },
+    {
+        "id": "260f30c0b09d149d",
+        "type": "template",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<h3>Received <b>new message</b> from <b>{{device_id}}</b><br>\nat <b>{{last_seen}}</b></h3>",
+        "output": "str",
+        "x": 1140,
+        "y": 260,
+        "wires": [
+            [
+                "b796ad9c6ff727c3"
+            ]
+        ]
+    },
+    {
+        "id": "b796ad9c6ff727c3",
+        "type": "ui-text",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "group": "e800c95d0dc55b6b",
+        "order": 1,
+        "width": 4,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1310,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "98bcb2ba6ed106de",
+        "type": "ui-text",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "group": "3711fc1786ec99a6",
+        "order": 3,
+        "width": 2,
+        "height": 0,
+        "name": "",
+        "label": "Sample number:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8d6ba00c04103ce4",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "sample count",
+        "func": "if (Number.isInteger(msg.sample_count)) {\n    msg.payload = msg.sample_count;\n} else {\n    msg.payload = String(msg.payload ?? \"\")\n        .split(/\\r?\\n/)\n        .filter(line => line.trim().length > 0)\n        .length;\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 420,
+        "wires": [
+            [
+                "98bcb2ba6ed106de"
+            ]
+        ]
+    },
+    {
+        "id": "96468d289ae80d55",
+        "type": "link in",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "set \"-\"",
+        "links": [
+            "15b7f59271880893"
+        ],
+        "x": 1335,
+        "y": 460,
+        "wires": [
+            [
+                "98bcb2ba6ed106de"
+            ]
+        ]
+    },
+    {
+        "id": "9a96b42b684d9243",
+        "type": "link out",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "got irradiance",
+        "mode": "link",
+        "links": [
+            "72e459a19084e701"
+        ],
+        "x": 395,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1d5f48fc8a87e882",
+        "type": "debug",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 260,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d2fb9d02987311c9",
+        "type": "join",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": false,
+        "timeout": "60",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 590,
+        "y": 200,
+        "wires": [
+            [
+                "ed4adac74241a7be"
+            ]
+        ]
+    },
+    {
+        "id": "53b6419682c94440",
+        "type": "debug",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "72444fe15e123a1d",
+        "type": "debug",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "987869d67fdc4ae9",
+        "type": "debug",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9b09bacda799da50",
+        "type": "link in",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "got dummy",
+        "links": [
+            "067c5aa359719b6f"
+        ],
+        "x": 1015,
+        "y": 320,
+        "wires": [
+            [
+                "3c053b028f038316"
+            ]
+        ]
+    },
+    {
+        "id": "aae731c4447c8b9e",
+        "type": "function",
+        "z": "2b4f63c8771524c8",
+        "g": "e2cb081554bd36dd",
+        "name": "complete on STOP",
+        "func": "// Convert Buffer or other payload types to string\nconst payload = Buffer.isBuffer(msg.payload)\n    ? msg.payload.toString(\"utf8\")\n    : String(msg.payload ?? \"\");\n\nmsg.payload = payload;\n\n// Tell the Join node to emit the accumulated array\n// when the final chunk containing STOP arrives.\nif (/(?:^|\\r?\\n)\\s*STOP\\s*(?:\\r?\\n|$)/i.test(payload)) {\n    msg.complete = true;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 160,
+        "wires": [
+            [
+                "d2fb9d02987311c9"
+            ]
+        ]
+    },
+    {
+        "id": "888739b776d43191",
+        "type": "ui-button",
+        "z": "6116faa92ea33f4f",
+        "g": "38b94dfa6e4f75a1",
+        "group": "ca56e53b94c1da87",
+        "name": "",
+        "label": "Clear Plot",
+        "order": 5,
+        "width": 2,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "spray-bottle",
+        "iconPosition": "left",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "black",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "578197300efb77c2",
+                "d57ee8b278790d56"
+            ]
+        ]
+    },
+    {
+        "id": "578197300efb77c2",
+        "type": "change",
+        "z": "6116faa92ea33f4f",
+        "g": "38b94dfa6e4f75a1",
+        "name": "set blank",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "device_id",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 120,
+        "wires": [
+            [
+                "0815ad7931269d19"
+            ]
+        ]
+    },
+    {
+        "id": "1aa7e5da5843aa8f",
+        "type": "link out",
+        "z": "6116faa92ea33f4f",
+        "g": "38b94dfa6e4f75a1",
+        "name": "clear",
+        "mode": "link",
+        "links": [
+            "e76a173d0de74575",
+            "8a32a5c0e7c62ae8",
+            "41751cbda0e8bdd7"
+        ],
+        "x": 425,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d57ee8b278790d56",
+        "type": "change",
+        "z": "6116faa92ea33f4f",
+        "g": "38b94dfa6e4f75a1",
+        "name": "set []",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "1aa7e5da5843aa8f"
+            ]
+        ]
+    },
+    {
+        "id": "2568dd93c2078972",
+        "type": "ui-template",
+        "z": "6116faa92ea33f4f",
+        "g": "29c6fb92f28d81d4",
+        "group": "ca56e53b94c1da87",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 4,
+        "width": 2,
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-btn color=\"green\" @click=\"downloadLastTest\">\n    &#8595 Download\n  </v-btn>\n</template>\n\n<script>\nexport default {\n  methods: {\n    downloadLastTest () {\n      window.location.href = \"/download-last\"\n    }\n  }\n}\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7eb1b67f4b3a8b25",
+        "type": "http in",
+        "z": "6116faa92ea33f4f",
+        "g": "29c6fb92f28d81d4",
+        "name": "",
+        "url": "/download-last",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "b620016be62633f0"
+            ]
+        ]
+    },
+    {
+        "id": "b620016be62633f0",
+        "type": "function",
+        "z": "6116faa92ea33f4f",
+        "g": "29c6fb92f28d81d4",
+        "name": "http content",
+        "func": "const lastTest = global.get(\"last_test\");\n\nif (!lastTest) {\n    msg.statusCode = 404;\n    msg.payload = \"No acquisition is available for download.\";\n    msg.headers = {\n        \"Content-Type\": \"text/plain; charset=utf-8\",\n        \"Cache-Control\": \"no-store\"\n    };\n    return msg;\n}\n\nconst name = String(lastTest.name || \"last_acquisition\")\n    .replace(/[^A-Za-z0-9_.-]/g, \"_\");\nlet data = String(lastTest.data || \"\");\nif (!/^V,I(?:\\r?\\n|$)/.test(data)) {\n    data = `V,I\\n${data}`;\n}\n\nmsg.payload = data;\nmsg.headers = {\n    \"Content-Type\": \"text/csv; charset=utf-8\",\n    \"Content-Disposition\": `attachment; filename=\"${name}.csv\"`,\n    \"Cache-Control\": \"no-store\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "4c40eb1071016a0d"
+            ]
+        ]
+    },
+    {
+        "id": "4c40eb1071016a0d",
+        "type": "http response",
+        "z": "6116faa92ea33f4f",
+        "g": "29c6fb92f28d81d4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "0815ad7931269d19",
+        "type": "link out",
+        "z": "6116faa92ea33f4f",
+        "g": "38b94dfa6e4f75a1",
+        "name": "clear last seen",
+        "mode": "link",
+        "links": [
+            "58c862a122d93c71"
+        ],
+        "x": 425,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d421f6474544ac71",
+        "type": "link in",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "plot",
+        "links": [
+            "f7cc08e0c446c89e"
+        ],
+        "x": 115,
+        "y": 420,
+        "wires": [
+            [
+                "fadbe3d8a292d813",
+                "2846e32794a391dd"
+            ]
+        ]
+    },
+    {
+        "id": "fadbe3d8a292d813",
+        "type": "change",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "set timestamp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "last_seen",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "9aa438f35f545c09",
+                "12fabf2264cf3944"
+            ]
+        ]
+    },
+    {
+        "id": "2846e32794a391dd",
+        "type": "split",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "bf31327cec9c1613"
+            ]
+        ]
+    },
+    {
+        "id": "9aa438f35f545c09",
+        "type": "ui-text",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "ca56e53b94c1da87",
+        "order": 2,
+        "width": 3,
+        "height": 0,
+        "name": "",
+        "label": "Last Seen:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "12fabf2264cf3944",
+        "type": "ui-text",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "ca56e53b94c1da87",
+        "order": 1,
+        "width": 3,
+        "height": 0,
+        "name": "",
+        "label": "Device:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "device_id",
+        "valueType": "msg",
+        "x": 450,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "bf31327cec9c1613",
+        "type": "switch",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "START",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "V,I",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "STOP",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [],
+            [],
+            [],
+            [
+                "d9e66b1de6379ea8"
+            ]
+        ]
+    },
+    {
+        "id": "58c862a122d93c71",
+        "type": "link in",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "to last seen",
+        "links": [
+            "0815ad7931269d19"
+        ],
+        "x": 315,
+        "y": 380,
+        "wires": [
+            [
+                "9aa438f35f545c09",
+                "12fabf2264cf3944"
+            ]
+        ]
+    },
+    {
+        "id": "aa7409bdda0579bd",
+        "type": "ui-chart",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "9bd5c029d4246f50",
+        "name": "",
+        "label": "i(v) curve",
+        "order": 1,
+        "chartType": "line",
+        "category": "series",
+        "categoryType": "property",
+        "xAxisLabel": "v [V]",
+        "xAxisProperty": "x",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "i [A]",
+        "yAxisProperty": "y",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1040,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e773fd2f1b38ca2",
+        "type": "ui-chart",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "9bd5c029d4246f50",
+        "name": "",
+        "label": "P(v) curve",
+        "order": 2,
+        "chartType": "line",
+        "category": "series",
+        "categoryType": "property",
+        "xAxisLabel": "v [V]",
+        "xAxisProperty": "x",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "P [W]",
+        "yAxisProperty": "y",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1050,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fc131cc58c1cc67",
+        "type": "function",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "add sample n",
+        "func": "msg.payload = msg.payload.map((obj,index) => ({\n    ...obj,\n    sn:index\n}));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 480,
+        "wires": [
+            [
+                "305c3a258d500a2c",
+                "475ee17af6125c2a"
+            ]
+        ]
+    },
+    {
+        "id": "305c3a258d500a2c",
+        "type": "ui-chart",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "9bd5c029d4246f50",
+        "name": "",
+        "label": "v(t) curve",
+        "order": 3,
+        "chartType": "line",
+        "category": "v(t)",
+        "categoryType": "str",
+        "xAxisLabel": "sample number",
+        "xAxisProperty": "sn",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "v [V]",
+        "yAxisProperty": "v",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1040,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "475ee17af6125c2a",
+        "type": "ui-chart",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "group": "9bd5c029d4246f50",
+        "name": "",
+        "label": "i(t) curve",
+        "order": 4,
+        "chartType": "line",
+        "category": "i(t)",
+        "categoryType": "str",
+        "xAxisLabel": "sample number",
+        "xAxisProperty": "sn",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "i [A]",
+        "yAxisProperty": "i",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": false,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#ff0000",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "12",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1040,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9e66b1de6379ea8",
+        "type": "function",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "parse ALL",
+        "func": "let V = Number(msg.payload.split(\",\")[0].trim());\nlet I = Number(msg.payload.split(\",\")[1].trim());\nlet P = V * I;\nP = Number(P.toFixed(3));\n\nmsg.payload = {\n    v: V,\n    i: I,\n    p: P\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "245bf468b4c645ae"
+            ]
+        ]
+    },
+    {
+        "id": "245bf468b4c645ae",
+        "type": "join",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": false,
+        "timeout": "10",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 540,
+        "wires": [
+            [
+                "0cfa7335548d8381",
+                "7fc131cc58c1cc67",
+                "35c48b782643d4d9"
+            ]
+        ]
+    },
+    {
+        "id": "0cfa7335548d8381",
+        "type": "function",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "split SC / OC",
+        "func": "const samples = Array.isArray(msg.payload) ? msg.payload : [];\nconst splitIndex = Math.ceil(samples.length / 2);\n\nmsg.payload = samples.map((element, index) => ({\n    series: index < splitIndex ? \"OC_to_SC\" : \"SC_to_OC\",\n    x: element.v,\n    y: element.i\n}));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 540,
+        "wires": [
+            [
+                "aa7409bdda0579bd"
+            ]
+        ]
+    },
+    {
+        "id": "35c48b782643d4d9",
+        "type": "function",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "split SC / OC",
+        "func": "const samples = Array.isArray(msg.payload) ? msg.payload : [];\nconst splitIndex = Math.ceil(samples.length / 2);\n\nmsg.payload = samples.map((element, index) => ({\n    series: index < splitIndex ? \"OC_to_SC\" : \"SC_to_OC\",\n    x: element.v,\n    y: element.p\n}));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 580,
+        "wires": [
+            [
+                "3e773fd2f1b38ca2"
+            ]
+        ]
+    },
+    {
+        "id": "e76a173d0de74575",
+        "type": "link in",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "to PV",
+        "links": [
+            "1aa7e5da5843aa8f"
+        ],
+        "x": 935,
+        "y": 600,
+        "wires": [
+            [
+                "3e773fd2f1b38ca2"
+            ]
+        ]
+    },
+    {
+        "id": "8a32a5c0e7c62ae8",
+        "type": "link in",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "to PV",
+        "links": [
+            "1aa7e5da5843aa8f"
+        ],
+        "x": 935,
+        "y": 520,
+        "wires": [
+            [
+                "aa7409bdda0579bd"
+            ]
+        ]
+    },
+    {
+        "id": "41751cbda0e8bdd7",
+        "type": "link in",
+        "z": "6116faa92ea33f4f",
+        "g": "2f89a13896eeb48e",
+        "name": "to PV",
+        "links": [
+            "1aa7e5da5843aa8f"
+        ],
+        "x": 885,
+        "y": 440,
+        "wires": [
+            [
+                "475ee17af6125c2a",
+                "305c3a258d500a2c"
+            ]
+        ]
+    },
+    {
+        "id": "75bd63ebf1cdd924",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "22243dc563c4b1e1",
+        "name": "save test",
+        "links": [
+            "f7cc08e0c446c89e"
+        ],
+        "x": 115,
+        "y": 80,
+        "wires": [
+            [
+                "cff49e2bfb6c9ade"
+            ]
+        ]
+    },
+    {
+        "id": "c84b01a0bdf4ab7b",
+        "type": "mysql",
+        "z": "172c755e0156a5ad",
+        "g": "22243dc563c4b1e1",
+        "mydb": "55b03696199945ec",
+        "name": "save acquisition + samples",
+        "x": 500,
+        "y": 80,
+        "wires": [
+            [
+                "c650fa88c4110543"
+            ]
+        ]
+    },
+    {
+        "id": "cff49e2bfb6c9ade",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "22243dc563c4b1e1",
+        "name": "build three-table insert",
+        "func": "const deviceName = String(\n    msg.device_id || msg.device_name || msg.device || \"dummy\"\n).trim();\n\nif (!deviceName) {\n    node.error(\"Cannot save an acquisition without a device name\", msg);\n    return null;\n}\n\nconst acquired = new Date(msg.last_seen || Date.now());\nif (Number.isNaN(acquired.getTime())) {\n    node.error(\"Cannot save an acquisition with an invalid timestamp\", msg);\n    return null;\n}\n\nconst rawLines = String(msg.payload ?? \"\")\n    .replace(/\\r/g, \"\")\n    .split(\"\\n\")\n    .map(line => line.trim())\n    .filter(line => line.length > 0)\n    .filter(line => {\n        const marker = line.replace(/\\s/g, \"\").toUpperCase();\n        return marker !== \"START\" && marker !== \"STOP\" && marker !== \"V,I\";\n    });\n\nif (rawLines.length === 0) {\n    node.error(\"Cannot save an acquisition without samples\", msg);\n    return null;\n}\n\nconst numberPattern = /^[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:[eE][+-]?\\d+)?$/;\nconst decimalLimit = 9999999999.999999;\nconst samples = [];\n\nfor (let index = 0; index < rawLines.length; index++) {\n    const parts = rawLines[index].split(\",\").map(value => value.trim());\n    if (parts.length !== 2 || !numberPattern.test(parts[0]) || !numberPattern.test(parts[1])) {\n        node.error(`Invalid V,I sample at row ${index + 1}: ${rawLines[index]}`, msg);\n        return null;\n    }\n\n    const valueX = Number(parts[0]);\n    const valueY = Number(parts[1]);\n    if (!Number.isFinite(valueX) || !Number.isFinite(valueY)) {\n        node.error(`Non-finite V,I sample at row ${index + 1}`, msg);\n        return null;\n    }\n    if (Math.abs(valueX) > decimalLimit || Math.abs(valueY) > decimalLimit) {\n        node.error(`V,I sample at row ${index + 1} exceeds DECIMAL(16,6)`, msg);\n        return null;\n    }\n\n    samples.push([parts[0], parts[1]]);\n}\n\nconst acquiredAtUtc = acquired.toISOString().slice(0, 23).replace(\"T\", \" \");\nconst sql = [];\nconst params = [];\n\n// Remove abandoned partial acquisitions from previous failed writes.\nsql.push(\n    \"DELETE FROM `acquisitions` \" +\n    \"WHERE `sample_count` = 0 \" +\n    \"AND `created_at` < CURRENT_TIMESTAMP - INTERVAL 1 DAY\"\n);\n\n// Create the device once, or retrieve its existing id through LAST_INSERT_ID().\nsql.push(\n    \"INSERT INTO `devices` (`device_name`) VALUES (?) \" +\n    \"ON DUPLICATE KEY UPDATE `id` = LAST_INSERT_ID(`id`)\"\n);\nparams.push(deviceName);\nsql.push(\"SET @device_id := LAST_INSERT_ID()\");\n\n// Serialize identifier allocation per device. The lock is released before the\n// larger sample insert begins.\nsql.push(\n    \"SET @lock_acquired := \" +\n    \"GET_LOCK(CONCAT('iv_acquisition_', @device_id), 10)\"\n);\nsql.push(\n    \"SET @acquisition_identifier := (\" +\n    \"SELECT COALESCE(MAX(a.`acquisition_identifier`), 0) + 1 \" +\n    \"FROM `acquisitions` AS a WHERE a.`device_id` = @device_id)\"\n);\n\n// sample_count=0 is a completion marker: historical queries ignore the row\n// until all child samples have been inserted successfully.\nsql.push(\n    \"INSERT IGNORE INTO `acquisitions` \" +\n    \"(`device_id`, `acquisition_identifier`, `acquired_at_utc`, `sample_count`) \" +\n    \"SELECT @device_id, @acquisition_identifier, ?, 0 \" +\n    \"WHERE @lock_acquired = 1\"\n);\nparams.push(acquiredAtUtc);\nsql.push(\"SET @acquisition_id := IF(ROW_COUNT() = 1, LAST_INSERT_ID(), NULL)\");\nsql.push(\"DO RELEASE_LOCK(CONCAT('iv_acquisition_', @device_id))\");\n\nconst batchSize = 500;\nfor (let start = 0; start < samples.length; start += batchSize) {\n    const batch = samples.slice(start, start + batchSize);\n    const values = [];\n\n    for (let offset = 0; offset < batch.length; offset++) {\n        const sampleIndex = start + offset;\n        values.push(`(@acquisition_id, ${sampleIndex}, ?, ?)`);\n        params.push(batch[offset][0], batch[offset][1]);\n    }\n\n    sql.push(\n        \"INSERT INTO `acquisition_samples` \" +\n        \"(`acquisition_id`, `sample_index`, `value_x`, `value_y`) VALUES \" +\n        values.join(\", \")\n    );\n}\n\nsql.push(\n    \"UPDATE `acquisitions` SET `sample_count` = ? \" +\n    \"WHERE `id` = @acquisition_id\"\n);\nparams.push(samples.length);\n\nsql.push(\n    \"SELECT a.`id` AS `acquisition_id`, \" +\n    \"a.`acquisition_identifier`, d.`device_name`, \" +\n    \"DATE_FORMAT(a.`acquired_at_utc`, '%Y-%m-%d %H:%i:%s') AS `acquired_at_utc`, \" +\n    \"a.`sample_count` \" +\n    \"FROM `acquisitions` AS a \" +\n    \"JOIN `devices` AS d ON d.`id` = a.`device_id` \" +\n    \"WHERE a.`id` = @acquisition_id\"\n);\n\nmsg.topic = sql.join(\";\\n\") + \";\";\nmsg.payload = params;\nmsg.sample_count = samples.length;\nmsg.save_info = {\n    device_name: deviceName,\n    acquired_at_utc: acquired.toISOString(),\n    sample_count: samples.length\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "c84b01a0bdf4ab7b"
+            ]
+        ]
+    },
+    {
+        "id": "d58a4a6f751b0c23",
+        "type": "inject",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "",
+        "props": [],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 400,
+        "wires": [
+            [
+                "e501846b8cd1f3be"
+            ]
+        ]
+    },
+    {
+        "id": "b2e653920be87608",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "query acquisitions",
+        "func": "const deviceName = String(msg.device || msg.payload || \"\").trim();\nif (!deviceName) {\n    node.error(\"Select a device before loading acquisitions\", msg);\n    return null;\n}\n\nmsg.device = deviceName;\nmsg.topic = [\n    \"SELECT\",\n    \"    a.`id`,\",\n    \"    a.`acquisition_identifier`,\",\n    \"    DATE_FORMAT(a.`acquired_at_utc`, '%Y-%m-%d %H:%i:%s') AS `acquired_at_utc`,\",\n    \"    CONCAT(\",\n    \"        a.`acquisition_identifier`, ' : ',\",\n    \"        DATE_FORMAT(a.`acquired_at_utc`, '%Y-%m-%d %H:%i:%s')\",\n    \"    ) AS `opt`\",\n    \"FROM `acquisitions` AS a\",\n    \"JOIN `devices` AS d ON d.`id` = a.`device_id`\",\n    \"WHERE d.`device_name` = ? AND a.`sample_count` > 0\",\n    \"ORDER BY a.`acquired_at_utc` DESC, a.`id` DESC\"\n].join(\"\\n\") + \";\";\nmsg.payload = [deviceName];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 460,
+        "wires": [
+            [
+                "0e9cfd997a23bd9b"
+            ]
+        ]
+    },
+    {
+        "id": "0e9cfd997a23bd9b",
+        "type": "mysql",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "mydb": "55b03696199945ec",
+        "name": "load acquisitions",
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "e0373571a509c507"
+            ]
+        ]
+    },
+    {
+        "id": "f4b6b19382b13145",
+        "type": "ui-dropdown",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "group": "88656100bf536f22",
+        "name": "",
+        "label": "Select Test:",
+        "tooltip": "",
+        "order": 2,
+        "width": 3,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 870,
+        "y": 460,
+        "wires": [
+            [
+                "493e2ab92ec921db"
+            ]
+        ]
+    },
+    {
+        "id": "e0373571a509c507",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "create options",
+        "func": "let options = [];\nfor (let index = 0; index < msg.payload.length; index++) {\n    const element = msg.payload[index];\n    options.push(element.opt);\n}\nmsg.options = options;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 460,
+        "wires": [
+            [
+                "f4b6b19382b13145"
+            ]
+        ]
+    },
+    {
+        "id": "493e2ab92ec921db",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "parse selected acquisition",
+        "func": "const selected = String(msg.payload ?? \"\");\nconst match = selected.match(/^\\s*(\\d+)\\s*:/);\nif (!match) {\n    node.error(`Invalid acquisition selection: ${selected}`, msg);\n    return null;\n}\n\nconst acquisitionId = Number(match[1]);\nif (!Number.isSafeInteger(acquisitionId) || acquisitionId <= 0) {\n    node.error(`Invalid acquisition id: ${match[1]}`, msg);\n    return null;\n}\n\nmsg.id = acquisitionId;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 460,
+        "wires": [
+            [
+                "df0c51b8e2c7215c"
+            ]
+        ]
+    },
+    {
+        "id": "de5e7151de9450f0",
+        "type": "mysql",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "mydb": "55b03696199945ec",
+        "name": "load acquisition samples",
+        "x": 520,
+        "y": 560,
+        "wires": [
+            [
+                "7601727d68ba6f41"
+            ]
+        ]
+    },
+    {
+        "id": "df0c51b8e2c7215c",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "query acquisition samples",
+        "func": "const acquisitionId = Number(msg.id);\nif (!Number.isSafeInteger(acquisitionId) || acquisitionId <= 0) {\n    node.error(\"A valid acquisition id is required\", msg);\n    return null;\n}\n\nmsg.topic = [\n    \"SELECT\",\n    \"    a.`id` AS `acquisition_id`,\",\n    \"    a.`acquisition_identifier`,\",\n    \"    DATE_FORMAT(a.`acquired_at_utc`, '%Y-%m-%d %H:%i:%s') AS `acquired_at_utc`,\",\n    \"    d.`device_name`,\",\n    \"    a.`sample_count`,\",\n    \"    s.`sample_index`,\",\n    \"    CAST(s.`value_x` AS CHAR) AS `value_x`,\",\n    \"    CAST(s.`value_y` AS CHAR) AS `value_y`\",\n    \"FROM `acquisitions` AS a\",\n    \"JOIN `devices` AS d ON d.`id` = a.`device_id`\",\n    \"JOIN `acquisition_samples` AS s ON s.`acquisition_id` = a.`id`\",\n    \"WHERE a.`id` = ? AND a.`sample_count` > 0\",\n    \"ORDER BY s.`sample_index`\"\n].join(\"\\n\") + \";\";\nmsg.payload = [acquisitionId];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 560,
+        "wires": [
+            [
+                "de5e7151de9450f0"
+            ]
+        ]
+    },
+    {
+        "id": "02b4a82c954a545b",
+        "type": "ui-button",
+        "z": "172c755e0156a5ad",
+        "g": "9d511d95cf12bd24",
+        "group": "88656100bf536f22",
+        "name": "",
+        "label": "Clear Plot",
+        "order": 3,
+        "width": 2,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "spray-bottle",
+        "iconPosition": "left",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "black",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 820,
+        "y": 80,
+        "wires": [
+            [
+                "c9791586c2f7d630"
+            ]
+        ]
+    },
+    {
+        "id": "a19bfccb9e2b50c3",
+        "type": "link out",
+        "z": "172c755e0156a5ad",
+        "g": "9d511d95cf12bd24",
+        "name": "clear",
+        "mode": "link",
+        "links": [
+            "5f6e591367f71e52",
+            "7d4e48f77baa75a3",
+            "4fbefa7c42f3460f",
+            "beafd93fa911379e",
+            "86ff3506b4b7a27f"
+        ],
+        "x": 1035,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c9791586c2f7d630",
+        "type": "change",
+        "z": "172c755e0156a5ad",
+        "g": "9d511d95cf12bd24",
+        "name": "set []",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            },
+            {
+                "t": "delete",
+                "p": "selected_test",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 80,
+        "wires": [
+            [
+                "a19bfccb9e2b50c3"
+            ]
+        ]
+    },
+    {
+        "id": "cac589d3ec7ef1b3",
+        "type": "link out",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "got data historical test",
+        "mode": "link",
+        "links": [
+            "a0d166ab03866809"
+        ],
+        "x": 925,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "c650fa88c4110543",
+        "type": "debug",
+        "z": "172c755e0156a5ad",
+        "g": "22243dc563c4b1e1",
+        "name": "save result",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e501846b8cd1f3be",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "query devices",
+        "func": "msg.topic = [\n    \"SELECT d.`device_name` AS `device`\",\n    \"FROM `devices` AS d\",\n    \"WHERE EXISTS (\",\n    \"    SELECT 1 FROM `acquisitions` AS a\",\n    \"    WHERE a.`device_id` = d.`id` AND a.`sample_count` > 0\",\n    \")\",\n    \"ORDER BY d.`device_name`\"\n].join(\"\\n\") + \";\";\nmsg.payload = [];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "bba03ee7edc5032f"
+            ]
+        ]
+    },
+    {
+        "id": "0be8938433221be4",
+        "type": "ui-dropdown",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "group": "88656100bf536f22",
+        "name": "",
+        "label": "Select Device:",
+        "tooltip": "",
+        "order": 1,
+        "width": 3,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 880,
+        "y": 400,
+        "wires": [
+            [
+                "0f2c8b0223810511"
+            ]
+        ]
+    },
+    {
+        "id": "bba03ee7edc5032f",
+        "type": "mysql",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "mydb": "55b03696199945ec",
+        "name": "load devices",
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "83b678526458782a"
+            ]
+        ]
+    },
+    {
+        "id": "83b678526458782a",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "create options",
+        "func": "let options = [];\nfor (let index = 0; index < msg.payload.length; index++) {\n    const element = msg.payload[index];\n    options.push(element.device);\n}\nmsg.options = options;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 400,
+        "wires": [
+            [
+                "0be8938433221be4"
+            ]
+        ]
+    },
+    {
+        "id": "5f6e591367f71e52",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "to IV",
+        "links": [
+            "a19bfccb9e2b50c3"
+        ],
+        "x": 765,
+        "y": 360,
+        "wires": [
+            [
+                "0be8938433221be4"
+            ]
+        ]
+    },
+    {
+        "id": "7d4e48f77baa75a3",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "to IV",
+        "links": [
+            "a19bfccb9e2b50c3"
+        ],
+        "x": 765,
+        "y": 500,
+        "wires": [
+            [
+                "f4b6b19382b13145"
+            ]
+        ]
+    },
+    {
+        "id": "6e9628d1e81d304c",
+        "type": "ui-template",
+        "z": "172c755e0156a5ad",
+        "g": "1e37fa32fd0d4b9b",
+        "group": "88656100bf536f22",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 4,
+        "width": 2,
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-btn color=\"green\" @click=\"downloadLastTest\">\n    &#8595 Download\n  </v-btn>\n</template>\n\n<script>\nexport default {\n  methods: {\n    downloadLastTest () {\n      window.location.href = \"/download-selected\"\n    }\n  }\n}\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aeec70681a41d177",
+        "type": "http in",
+        "z": "172c755e0156a5ad",
+        "g": "1e37fa32fd0d4b9b",
+        "name": "",
+        "url": "/download-selected",
+        "method": "get",
+        "upload": false,
+        "skipBodyParsing": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "21a37f3321249748"
+            ]
+        ]
+    },
+    {
+        "id": "21a37f3321249748",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "1e37fa32fd0d4b9b",
+        "name": "http content",
+        "func": "const selectedTest = global.get(\"selected_test\");\n\nif (!selectedTest) {\n    msg.statusCode = 404;\n    msg.payload = \"No historical acquisition is selected.\";\n    msg.headers = {\n        \"Content-Type\": \"text/plain; charset=utf-8\",\n        \"Cache-Control\": \"no-store\"\n    };\n    return msg;\n}\n\nconst name = String(selectedTest.name || \"selected_acquisition\")\n    .replace(/[^A-Za-z0-9_.-]/g, \"_\");\nlet data = String(selectedTest.data || \"\");\nif (!/^V,I(?:\\r?\\n|$)/.test(data)) {\n    data = `V,I\\n${data}`;\n}\n\nmsg.payload = data;\nmsg.headers = {\n    \"Content-Type\": \"text/csv; charset=utf-8\",\n    \"Content-Disposition\": `attachment; filename=\"${name}.csv\"`,\n    \"Cache-Control\": \"no-store\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 220,
+        "wires": [
+            [
+                "cd6f609ae97c1af3"
+            ]
+        ]
+    },
+    {
+        "id": "cd6f609ae97c1af3",
+        "type": "http response",
+        "z": "172c755e0156a5ad",
+        "g": "1e37fa32fd0d4b9b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 550,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "0f2c8b0223810511",
+        "type": "change",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "device",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 400,
+        "wires": [
+            [
+                "b2e653920be87608"
+            ]
+        ]
+    },
+    {
+        "id": "7601727d68ba6f41",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "d382525cc05dfbe0",
+        "name": "set global selected_test",
+        "func": "const rows = msg.payload;\nif (!Array.isArray(rows) || rows.length === 0) {\n    node.error(\"The selected acquisition has no stored samples\", msg);\n    return null;\n}\n\nconst first = rows[0];\nconst expectedCount = Number(first.sample_count);\nif (Number.isFinite(expectedCount) && expectedCount !== rows.length) {\n    node.warn(\n        `Acquisition ${first.acquisition_id} declares ${expectedCount} samples but ${rows.length} were loaded`\n    );\n}\n\nconst data = rows\n    .map(row => `${row.value_x},${row.value_y}`)\n    .join(\"\\n\");\n\nconst acquisitionId = Number(first.acquisition_id);\nconst identifier = Number(first.acquisition_identifier);\nconst device = String(first.device_name || \"unknown\");\nconst acquiredAtUtc = String(first.acquired_at_utc || \"\");\nconst safeDevice = device.replace(/[^A-Za-z0-9_.-]/g, \"_\");\nconst safeTimestamp = acquiredAtUtc\n    .replace(\"T\", \"_\")\n    .replace(/[:.]/g, \"-\")\n    .replace(/Z$/, \"\");\nconst name = `id${identifier}_${safeDevice}_${safeTimestamp}`;\n\nconst selectedTest = {\n    id: acquisitionId,\n    acquisition_identifier: identifier,\n    device_name: device,\n    acquired_at_utc: acquiredAtUtc,\n    sample_count: rows.length,\n    data,\n    name\n};\n\nglobal.set(\"selected_test\", selectedTest);\nmsg.id = acquisitionId;\nmsg.acquisition_identifier = identifier;\nmsg.device = device;\nmsg.timestamp = acquiredAtUtc;\nmsg.sample_count = rows.length;\nmsg.payload = data;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 560,
+        "wires": [
+            [
+                "cac589d3ec7ef1b3"
+            ]
+        ]
+    },
+    {
+        "id": "d5e36fecdafdcc48",
+        "type": "ui-button",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "group": "88656100bf536f22",
+        "name": "",
+        "label": "Delete from DB",
+        "order": 5,
+        "width": 2,
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "nuke",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 180,
+        "y": 1060,
+        "wires": [
+            [
+                "18b18d182c3c870e"
+            ]
+        ]
+    },
+    {
+        "id": "a5d3821d18b8406f",
+        "type": "ui-notification",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "ui": "36b237f3bdd4508f",
+        "position": "top center",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "10",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "No",
+        "allowConfirm": true,
+        "confirmText": "Yes",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 510,
+        "y": 1060,
+        "wires": [
+            [
+                "7994a90c8e4a80ae"
+            ]
+        ]
+    },
+    {
+        "id": "18b18d182c3c870e",
+        "type": "template",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<h3>Do you really want to delete data related to test:</h3><br>\n<h3><b>{{global.selected_test.name}} ?</h3></b>",
+        "output": "str",
+        "x": 340,
+        "y": 1060,
+        "wires": [
+            [
+                "a5d3821d18b8406f"
+            ]
+        ]
+    },
+    {
+        "id": "7994a90c8e4a80ae",
+        "type": "switch",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "confirm_clicked",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "dismiss_clicked",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 1060,
+        "wires": [
+            [
+                "16506c5eeaec0ba9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "913ebbcc85ee4b89",
+        "type": "mysql",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "mydb": "55b03696199945ec",
+        "name": "delete acquisition",
+        "x": 1030,
+        "y": 1040,
+        "wires": [
+            [
+                "6b1545e12b0557d3"
+            ]
+        ]
+    },
+    {
+        "id": "16506c5eeaec0ba9",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "delete acquisition",
+        "func": "const selectedTest = global.get(\"selected_test\");\nconst acquisitionId = Number(selectedTest && selectedTest.id);\n\nif (!Number.isSafeInteger(acquisitionId) || acquisitionId <= 0) {\n    node.error(\"No valid historical acquisition is selected\", msg);\n    return null;\n}\n\nmsg.topic = \"DELETE FROM `acquisitions` WHERE `id` = ?;\";\nmsg.payload = [acquisitionId];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 1040,
+        "wires": [
+            [
+                "913ebbcc85ee4b89"
+            ]
+        ]
+    },
+    {
+        "id": "ad24b993bb5f1db8",
+        "type": "template",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<h2>Test deleted!<h2>",
+        "output": "str",
+        "x": 800,
+        "y": 1120,
+        "wires": [
+            [
+                "246ffc74f7941aa9"
+            ]
+        ]
+    },
+    {
+        "id": "246ffc74f7941aa9",
+        "type": "ui-notification",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "ui": "36b237f3bdd4508f",
+        "position": "top center",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": false,
+        "dismissText": "No",
+        "allowConfirm": false,
+        "confirmText": "Yes",
+        "raw": true,
+        "className": "",
+        "name": "",
+        "x": 970,
+        "y": 1120,
+        "wires": [
+            [
+                "61890bfb8322c44f"
+            ]
+        ]
+    },
+    {
+        "id": "6b1545e12b0557d3",
+        "type": "switch",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "",
+        "property": "payload.affectedRows",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 1120,
+        "wires": [
+            [
+                "ad24b993bb5f1db8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2db47c4983a6df74",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "9d511d95cf12bd24",
+        "name": "from del",
+        "links": [
+            "61890bfb8322c44f"
+        ],
+        "x": 865,
+        "y": 120,
+        "wires": [
+            [
+                "c9791586c2f7d630"
+            ]
+        ]
+    },
+    {
+        "id": "61890bfb8322c44f",
+        "type": "link out",
+        "z": "172c755e0156a5ad",
+        "g": "4d094b61ee42fe1a",
+        "name": "del success",
+        "mode": "link",
+        "links": [
+            "2db47c4983a6df74"
+        ],
+        "x": 1095,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "75eae2f2ae40fee3",
+        "type": "split",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 90,
+        "y": 840,
+        "wires": [
+            [
+                "e9ed119e7c45b35c"
+            ]
+        ]
+    },
+    {
+        "id": "df9112517db9bcdc",
+        "type": "ui-chart",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "group": "0b65e02ab8ed543a",
+        "name": "",
+        "label": "i(v) curve",
+        "order": 1,
+        "chartType": "line",
+        "category": "series",
+        "categoryType": "property",
+        "xAxisLabel": "v [V]",
+        "xAxisProperty": "x",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "i [A]",
+        "yAxisProperty": "y",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 880,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0d166ab03866809",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "plot",
+        "links": [
+            "cac589d3ec7ef1b3"
+        ],
+        "x": 35,
+        "y": 800,
+        "wires": [
+            [
+                "75eae2f2ae40fee3"
+            ]
+        ]
+    },
+    {
+        "id": "36bb2c83f188a6d6",
+        "type": "ui-chart",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "group": "0b65e02ab8ed543a",
+        "name": "",
+        "label": "P(v) curve",
+        "order": 2,
+        "chartType": "line",
+        "category": "series",
+        "categoryType": "property",
+        "xAxisLabel": "v [V]",
+        "xAxisProperty": "x",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "P [W]",
+        "yAxisProperty": "y",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 890,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fbefa7c42f3460f",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "to IV",
+        "links": [
+            "a19bfccb9e2b50c3"
+        ],
+        "x": 775,
+        "y": 860,
+        "wires": [
+            [
+                "df9112517db9bcdc"
+            ]
+        ]
+    },
+    {
+        "id": "beafd93fa911379e",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "to PV",
+        "links": [
+            "a19bfccb9e2b50c3"
+        ],
+        "x": 775,
+        "y": 900,
+        "wires": [
+            [
+                "36bb2c83f188a6d6"
+            ]
+        ]
+    },
+    {
+        "id": "53e232a6dcd6d3b7",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "add sample n",
+        "func": "msg.payload = msg.payload.map((obj,index) => ({\n    ...obj,\n    sn:index\n}));\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 780,
+        "wires": [
+            [
+                "df7e8a279fee0dc7",
+                "5c839023b8b62f45",
+                "64e35b581841b36c"
+            ]
+        ]
+    },
+    {
+        "id": "df7e8a279fee0dc7",
+        "type": "ui-chart",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "group": "0b65e02ab8ed543a",
+        "name": "",
+        "label": "v(t) curve",
+        "order": 3,
+        "chartType": "line",
+        "category": "v(t)",
+        "categoryType": "str",
+        "xAxisLabel": "sample number",
+        "xAxisProperty": "sn",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "v [V]",
+        "yAxisProperty": "v",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": false,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 880,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c839023b8b62f45",
+        "type": "ui-chart",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "group": "0b65e02ab8ed543a",
+        "name": "",
+        "label": "i(t) curve",
+        "order": 4,
+        "chartType": "line",
+        "category": "i(t)",
+        "categoryType": "str",
+        "xAxisLabel": "sample number",
+        "xAxisProperty": "sn",
+        "xAxisPropertyType": "property",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "i [A]",
+        "yAxisProperty": "i",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": false,
+        "removeOlder": "0",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#ff0000",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 880,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e9ed119e7c45b35c",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "parse ALL",
+        "func": "let V = Number(msg.payload.split(\",\")[0].trim());\nlet I = Number(msg.payload.split(\",\")[1].trim());\nlet P = V * I;\nP = Number(P.toFixed(3));\n\nmsg.payload = {\n    v: V,\n    i: I,\n    p: P\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 840,
+        "wires": [
+            [
+                "5f663061abe34d5c"
+            ]
+        ]
+    },
+    {
+        "id": "5f663061abe34d5c",
+        "type": "join",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": false,
+        "timeout": "10",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 350,
+        "y": 840,
+        "wires": [
+            [
+                "2b6ac3d7ab3523f6"
+            ]
+        ]
+    },
+    {
+        "id": "86ff3506b4b7a27f",
+        "type": "link in",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "to IV",
+        "links": [
+            "a19bfccb9e2b50c3"
+        ],
+        "x": 715,
+        "y": 740,
+        "wires": [
+            [
+                "5c839023b8b62f45",
+                "df7e8a279fee0dc7"
+            ]
+        ]
+    },
+    {
+        "id": "98c2a97e04dd2edf",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "split SC / OC",
+        "func": "const samples = Array.isArray(msg.payload) ? msg.payload : [];\nconst splitIndex = Math.ceil(samples.length / 2);\n\nmsg.payload = samples.map((element, index) => ({\n    series: index < splitIndex ? \"OC_to_SC\" : \"SC_to_OC\",\n    x: element.v,\n    y: element.i\n}));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 840,
+        "wires": [
+            [
+                "df9112517db9bcdc"
+            ]
+        ]
+    },
+    {
+        "id": "8dc617f358a89c9b",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "split SC / OC",
+        "func": "const samples = Array.isArray(msg.payload) ? msg.payload : [];\nconst splitIndex = Math.ceil(samples.length / 2);\n\nmsg.payload = samples.map((element, index) => ({\n    series: index < splitIndex ? \"OC_to_SC\" : \"SC_to_OC\",\n    x: element.v,\n    y: element.p\n}));\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 880,
+        "wires": [
+            [
+                "36bb2c83f188a6d6"
+            ]
+        ]
+    },
+    {
+        "id": "64e35b581841b36c",
+        "type": "debug",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2c8d4971f98da89b",
+        "type": "catch",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "",
+        "scope": [
+            "e9ed119e7c45b35c"
+        ],
+        "uncaught": false,
+        "x": 310,
+        "y": 700,
+        "wires": [
+            [
+                "8509707f2b7ffebf"
+            ]
+        ]
+    },
+    {
+        "id": "8509707f2b7ffebf",
+        "type": "debug",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2b6ac3d7ab3523f6",
+        "type": "function",
+        "z": "172c755e0156a5ad",
+        "g": "125a6295e9f07551",
+        "name": "filter",
+        "func": "const data = msg.payload;\n\nif (!Array.isArray(data) || data.length === 0) {\n    node.warn(\"msg.payload must be a non-empty array\");\n    return null;\n}\n\n// Filter settings\nconst medianWindow = 7;   // Must preferably be odd\nconst averageWindow = 15;\n\n// Extract current values\nconst current = data.map(point => Number(point.i));\n\n// Median function\nfunction median(values) {\n    const sorted = [...values].sort((a, b) => a - b);\n    const middle = Math.floor(sorted.length / 2);\n\n    if (sorted.length % 2 === 0) {\n        return (sorted[middle - 1] + sorted[middle]) / 2;\n    }\n\n    return sorted[middle];\n}\n\n// 1. Median filter for spike removal\nconst medianFiltered = current.map((value, index) => {\n    const halfWindow = Math.floor(medianWindow / 2);\n\n    const start = Math.max(0, index - halfWindow);\n    const end = Math.min(current.length, index + halfWindow + 1);\n\n    return median(current.slice(start, end));\n});\n\n// 2. Moving-average filter for light smoothing\nconst filteredCurrent = medianFiltered.map((value, index) => {\n    const start = Math.max(0, index - averageWindow + 1);\n    const window = medianFiltered.slice(start, index + 1);\n\n    return window.reduce((sum, sample) => sum + sample, 0) / window.length;\n});\n\n// Rebuild the array\nmsg.payload = data.map((point, index) => ({\n    ...point,\n    i_raw: point.i,\n    i: filteredCurrent[index],\n    p_raw: point.p,\n    p: Number(point.v) * filteredCurrent[index]\n}));\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 840,
+        "wires": [
+            [
+                "4f0e5eb547a9515d"
+            ]
+        ]
+    },
+    {
+        "id": "72e459a19084e701",
+        "type": "link in",
+        "z": "c8852e774228ca81",
+        "name": "save irradiance",
+        "links": [
+            "9a96b42b684d9243"
+        ],
+        "x": 155,
+        "y": 120,
+        "wires": [
+            [
+                "92aaef14a472bcd3"
+            ]
+        ]
+    },
+    {
+        "id": "0dfa293ba85a25f8",
+        "type": "ui-chart",
+        "z": "c8852e774228ca81",
+        "group": "a8182b13678781c2",
+        "name": "",
+        "label": "Irradiance",
+        "order": 2,
+        "chartType": "line",
+        "category": "",
+        "categoryType": "none",
+        "xAxisLabel": "time",
+        "xAxisProperty": "timestamp",
+        "xAxisPropertyType": "property",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "W/mq",
+        "yAxisProperty": "data",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 12,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 720,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "755e1af52c9682e5",
+        "type": "debug",
+        "z": "c8852e774228ca81",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "92aaef14a472bcd3",
+        "type": "function",
+        "z": "c8852e774228ca81",
+        "name": "parse",
+        "func": "msg.timestamp = Number(msg.payload.split(\";\")[0]);\nmsg.irradiance = parseFloat(msg.payload.split(\";\")[1]);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "03f33112e513b244"
+            ]
+        ]
+    },
+    {
+        "id": "03f33112e513b244",
+        "type": "template",
+        "z": "c8852e774228ca81",
+        "name": "",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "INSERT INTO\n    {{env.DB_IRRADIANCE}}\n(timestamp, data) VALUES\n    ({{timestamp}}, {{irradiance}});",
+        "output": "str",
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "56d3397e580423cf",
+                "755e1af52c9682e5"
+            ]
+        ]
+    },
+    {
+        "id": "56d3397e580423cf",
+        "type": "mysql",
+        "z": "c8852e774228ca81",
+        "mydb": "55b03696199945ec",
+        "name": "",
+        "x": 550,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5e001e65dfbc2c6",
+        "type": "ui-button",
+        "z": "c8852e774228ca81",
+        "group": "a8182b13678781c2",
+        "name": "",
+        "label": "Refresh",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "9b2f781c9af70510"
+            ]
+        ]
+    },
+    {
+        "id": "9b2f781c9af70510",
+        "type": "template",
+        "z": "c8852e774228ca81",
+        "name": "24h",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT data, timestamp*1000 as timestamp FROM\n    {{env.DB_IRRADIANCE}}\nORDER BY timestamp DESC\nLIMIT 1500;",
+        "output": "str",
+        "x": 370,
+        "y": 220,
+        "wires": [
+            [
+                "5794d22ceada733f"
+            ]
+        ]
+    },
+    {
+        "id": "5794d22ceada733f",
+        "type": "mysql",
+        "z": "c8852e774228ca81",
+        "mydb": "55b03696199945ec",
+        "name": "",
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "0dfa293ba85a25f8"
+            ]
+        ]
+    },
+    {
+        "id": "d7f4acd77a68f9cb",
+        "type": "ui-chart",
+        "z": "c8852e774228ca81",
+        "group": "a95e3b9cf2c65daf",
+        "name": "",
+        "label": "Irradiance",
+        "order": 2,
+        "chartType": "line",
+        "category": "",
+        "categoryType": "none",
+        "xAxisLabel": "time",
+        "xAxisProperty": "timestamp",
+        "xAxisPropertyType": "property",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "W/mq",
+        "yAxisProperty": "data",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 12,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 720,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23f02d1b924f261f",
+        "type": "ui-button",
+        "z": "c8852e774228ca81",
+        "group": "a95e3b9cf2c65daf",
+        "name": "",
+        "label": "Refresh",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "8bacea4c3cf7a77a"
+            ]
+        ]
+    },
+    {
+        "id": "8bacea4c3cf7a77a",
+        "type": "template",
+        "z": "c8852e774228ca81",
+        "name": "1h",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT data, timestamp*1000 as timestamp FROM\n    {{env.DB_IRRADIANCE}}\nORDER BY timestamp DESC\nLIMIT 60;",
+        "output": "str",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "ffe5d42938da9139"
+            ]
+        ]
+    },
+    {
+        "id": "ffe5d42938da9139",
+        "type": "mysql",
+        "z": "c8852e774228ca81",
+        "mydb": "55b03696199945ec",
+        "name": "",
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "d7f4acd77a68f9cb"
+            ]
+        ]
+    },
+    {
+        "id": "744a346d8fd16ff4",
+        "type": "ui-chart",
+        "z": "c8852e774228ca81",
+        "group": "6226919edfab64da",
+        "name": "",
+        "label": "Irradiance",
+        "order": 2,
+        "chartType": "line",
+        "category": "",
+        "categoryType": "none",
+        "xAxisLabel": "time",
+        "xAxisProperty": "timestamp",
+        "xAxisPropertyType": "property",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "W/mq",
+        "yAxisProperty": "data",
+        "yAxisPropertyType": "property",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 12,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 720,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3552af47eb8c39e",
+        "type": "ui-button",
+        "z": "c8852e774228ca81",
+        "group": "6226919edfab64da",
+        "name": "",
+        "label": "Refresh",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 240,
+        "y": 480,
+        "wires": [
+            [
+                "638259375893635a"
+            ]
+        ]
+    },
+    {
+        "id": "638259375893635a",
+        "type": "template",
+        "z": "c8852e774228ca81",
+        "name": "all",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "SELECT data, timestamp*1000 as timestamp FROM\n    {{env.DB_IRRADIANCE}}\nORDER BY timestamp DESC;",
+        "output": "str",
+        "x": 370,
+        "y": 480,
+        "wires": [
+            [
+                "a3484a3d973560a1"
+            ]
+        ]
+    },
+    {
+        "id": "a3484a3d973560a1",
+        "type": "mysql",
+        "z": "c8852e774228ca81",
+        "mydb": "55b03696199945ec",
+        "name": "",
+        "x": 540,
+        "y": 480,
+        "wires": [
+            [
+                "744a346d8fd16ff4"
+            ]
+        ]
+    },
+    {
+        "id": "ebc765786b2d2868",
+        "type": "inject",
+        "z": "b88f206707c101b8",
+        "name": "",
+        "props": [
+            {
+                "p": "device_id",
+                "v": "dummy",
+                "vt": "str"
+            },
+            {
+                "p": "last_seen",
+                "v": "iso",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [
+                "a4f06cff3a1988eb"
+            ]
+        ]
+    },
+    {
+        "id": "a4f06cff3a1988eb",
+        "type": "file in",
+        "z": "b88f206707c101b8",
+        "name": "",
+        "filename": "C:/Users/dotal/Desktop/IVdata_dummy.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "067c5aa359719b6f",
+                "2f3d82093c02675b"
+            ]
+        ]
+    },
+    {
+        "id": "067c5aa359719b6f",
+        "type": "link out",
+        "z": "b88f206707c101b8",
+        "name": "dummy data",
+        "mode": "link",
+        "links": [
+            "9b09bacda799da50"
+        ],
+        "x": 795,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2f3d82093c02675b",
+        "type": "debug",
+        "z": "b88f206707c101b8",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 100,
+        "wires": []
+    }
+]
